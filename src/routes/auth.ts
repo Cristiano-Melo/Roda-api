@@ -7,4 +7,6 @@ const router = Router()
 router.post("/", LoginController.login) // Rota de Login
 router.get("/profile", authMiddleware, LoginController.getProfiles) // retorna informações do usuario
 
-export default router
+export default router;
+
+// testetstetstet
