@@ -8,5 +8,3 @@ router.post("/", LoginController.login) // Rota de Login
 router.get("/profile", authMiddleware, LoginController.getProfiles) // retorna informações do usuario
 
 export default router;
-
-// testetstetstet
